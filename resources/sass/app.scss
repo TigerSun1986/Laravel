@@ -25,20 +25,25 @@ $navbar-color: #3c3e42;
     background-color: $navbar-color;
 }
 
-body {
-    div {
-        color: red;
-    }
+/* footer */
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  font-size: 13px;
+  font-weight: bold;
 
-    h1 {
-        margin-top: 10px;
-    }
+  a {
+    color: #555;
+  }
 
-}
+  a:hover {
+    color: #222;
+  }
 
-a {
-  color: white;
-  &:hover {
-    color: blue;
+  img.brand-icon {
+    width: 17px;
+    height: 17px;
   }
 }
